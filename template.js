@@ -1,5 +1,5 @@
 /*
- * grunt-init-web-app
+ * grunt-init-webpage-scaffold
  * https://gruntjs.com/
  *
  * Copyright (c) 2016 Nzar Tofiq
@@ -9,19 +9,19 @@
 'use strict';
 
 // Basic template description.
-exports.description = 'Create a web-app module, including Gulp and Jasmine unit tests.';
+exports.description = 'Create a Webpage module, including Gulp and Jasmine unit tests.';
 
 // Template-specific notes to be displayed before question prompts.
-exports.notes = '_Project name_ shouldn\'t contain "node, jasmine, gulp" or "js" and should ' +
+exports.notes = '_Project name_ shouldn\'t contain "webpage" or "js" and should ' +
   'be a unique ID not already in use at search.npmjs.org.';
 
 // Template-specific notes to be displayed after question prompts.
 exports.after = 'You should now install project dependencies with _npm ' +
-  'install_. After that, you may execute project tasks with _grunt_. For ' +
-  'more information about installing and configuring Grunt, please see ' +
+  'install_. After that, you may execute project tasks with gulp. For ' +
+  'more information about installing and configuring Gulp, please see ' +
   'the Getting Started guide:' +
   '\n\n' +
-  'http://gruntjs.com/getting-started';
+  'https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md';
 
 // Any existing file or directory matching this wildcard will cause a warning.
 exports.warnOn = '*';
